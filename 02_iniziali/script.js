@@ -6,9 +6,13 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 // Dichiara la funzione qui.
 function iniziale(a) {
 
+    let b =[]
+
     for (let i = 0; i < a.length; i++) {
-        console.log(a[i].charAt(0))  
+        b.push( a[i].charAt(0))
     }
+
+    console.log(b);
     
 }
 
