@@ -4,10 +4,18 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 
 // Dichiara la funzione qui.
+function iniziale(a) {
+
+    for (let i = 0; i < a.length; i++) {
+        console.log(a[i].charAt(0))  
+    }
+    
+}
 
 
 // Invoca la funzione qui e stampa il risultato in console
 
+iniziale(names)
 
 
 //Risultato atteso: ["A", "L", "M", "A", "G", "A"]
